@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleMinimal from '@/components/navigation/NavbarStyleMinimal';
 import SplitHero from '@/components/sections/layouts/hero/SplitHero';
@@ -14,7 +14,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="/images/logo.svg"
-          logoAlt="MemeCoin Logo"
           logoWidth={150}
           logoHeight={50}
           buttonText="Join Meme"
